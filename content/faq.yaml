@@ -1,0 +1,16 @@
+---
+questions:
+  -
+    q: What is Halfshell?
+    a: Halfshell is a graphical terminal framework that blends web-based view components
+      with the power of command-driven workflows.
+  -
+    q: What platforms does it run on?
+    a: Halfshell will be available for Linux, Windows, and Apple OS X.
+  -
+    q: When will the first prerelease builds be available?
+    a: Roughly six months after the project meets its funding goals.
+  -
+    q: How will Halfshell be licensed?
+    a: The Halfshell framework and official packages will be open-source software
+      licensed under the MIT license.

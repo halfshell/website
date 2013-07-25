@@ -1,0 +1,185 @@
+/* line 29, content/stylesheets/_icons.sass */
+.icon.platform-icon.ruby {
+  background-image: url(../images/platform-icons/ruby.png);
+}
+
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/eot/social_foundicons.eot");
+  src: url("../fonts/eot/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/social_foundicons.woff") format("woff"), url("../fonts/ttf/social_foundicons.ttf") format("truetype"), url("../fonts/svg/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 7, content/stylesheets/social_foundicons.sass */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 17, content/stylesheets/social_foundicons.sass */
+[class*="foundicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-thumb-up:before {
+  content: "\f000";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-thumb-down:before {
+  content: "\f001";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-rss:before {
+  content: "\f002";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-facebook:before {
+  content: "\f003";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-twitter:before {
+  content: "\f004";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-pinterest:before {
+  content: "\f005";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-github:before {
+  content: "\f006";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-path:before {
+  content: "\f007";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-linkedin:before {
+  content: "\f008";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-dribbble:before {
+  content: "\f009";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-stumble-upon:before {
+  content: "\f00a";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-behance:before {
+  content: "\f00b";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-reddit:before {
+  content: "\f00c";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-google-plus:before {
+  content: "\f00d";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-youtube:before {
+  content: "\f00e";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-vimeo:before {
+  content: "\f00f";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-flickr:before {
+  content: "\f010";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-slideshare:before {
+  content: "\f011";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-picassa:before {
+  content: "\f012";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-skype:before {
+  content: "\f013";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-steam:before {
+  content: "\f014";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-instagram:before {
+  content: "\f015";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-foursquare:before {
+  content: "\f016";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-delicious:before {
+  content: "\f017";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-chat:before {
+  content: "\f018";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-torso:before {
+  content: "\f019";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-tumblr:before {
+  content: "\f01a";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-video-chat:before {
+  content: "\f01b";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-digg:before {
+  content: "\f01c";
+}
+
+/* line 12, content/stylesheets/_icons.sass */
+.foundicon-wordpress:before {
+  content: "\f01d";
+}

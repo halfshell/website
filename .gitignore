@@ -1,0 +1,4 @@
+*.swp
+tmp/
+.sass-cache/
+*.log

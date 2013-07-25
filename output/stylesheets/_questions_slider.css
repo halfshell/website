@@ -1,0 +1,10 @@
+/* line 1, content/stylesheets/_questions_slider.sass */
+.questions-slider-container {
+  margin-bottom: 40px;
+  height: 55px;
+}
+
+/* line 5, content/stylesheets/_questions_slider.sass */
+.questions-slider {
+  overflow: hidden;
+}

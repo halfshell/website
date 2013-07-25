@@ -1,0 +1,33 @@
+digraph G {
+  "node-webkit" [shape=box] [style=bold];
+  "npm" [shape=box] [style=bold];
+  "BackboneJS" [shape=box] [style=bold];
+  "RactiveJS" [shape=box] [style=bold];
+  "D3.js" [shape=box] [style=bold];
+  "CodeMirror" [shape=box] [style=bold];
+  "JsPlumb" [shape=box] [style=bold];
+
+
+  "node-webkit" -> "node";
+  "node-webkit" -> webkit;
+
+  npm -> "node";
+
+  "Packages" -> npm;
+  Application -> "node-webkit";
+
+  Framework -> Application;
+  Framework -> "Packages";
+  Framework -> "User Interface";
+
+  "User Interface" -> "BackboneJS";
+  "User Interface" -> "Command Views";
+  "User Interface" -> "Text Editors";
+  "User Interface" -> "Visual Pipes";
+
+  "Command Views" -> "RactiveJS";
+  "Command Views" -> "D3.js";
+
+  "Text Editors" -> "CodeMirror";
+  "Visual Pipes" -> "JsPlumb";
+}

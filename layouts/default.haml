@@ -1,0 +1,7 @@
+= render 'header', title: @item[:title]
+%body
+  #page-bg
+    #footer-bg
+      .default
+        = yield
+      = render 'footer'

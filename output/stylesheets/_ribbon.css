@@ -1,0 +1,28 @@
+/* line 29, content/stylesheets/_icons.sass */
+.icon.platform-icon.ruby {
+  background-image: url(../images/platform-icons/ruby.png);
+}
+
+/* line 4, content/stylesheets/_ribbon.sass */
+.ribbon {
+  display: none;
+  padding: 3px 5px;
+  height: 40px;
+  color: #0b222a;
+  background-color: #086b79;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  float: left;
+  clear: left;
+  font-family: "Montez", cursive;
+  font-size: 32px;
+  line-height: 40px;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+  border-bottom-right-radius: 20px 5px;
+  top: 8px;
+  left: 5px;
+  z-index: 10;
+}

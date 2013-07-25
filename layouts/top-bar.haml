@@ -1,0 +1,61 @@
+%nav.top-bar
+  %ul.title-area
+    %li.name
+      %h1
+        %a{:href => '/'}
+          Halfshell
+  %section.top-bar-section
+    %ul.left
+
+      %li.divider
+      %li
+        %a{:href => '/', class: "#{'active' if @active == '/'}" } Home
+
+      %li.divider
+      %li
+        %a{:href => '/get-involved', class: "#{'active' if @active == '/get-involved'}" } Get Involved
+
+      %li.divider
+      %li.has-dropdown
+        %a{:href => '#'} Design
+        %ul.dropdown
+          %li
+            %a{:href => '/design/technology', class: "#{'active' if @active == '/design/technology'}" } Underlying technology
+          %li
+            %a{:href => '/design/sketches', class: "#{'active' if @active == '/design/sketches'}" } Sketches &amp; Mockups
+          /
+            %li
+              %a{:href => '/design/modular', class: "#{'active' if @active == '/design/modular'}" } Modular framework
+            %li
+              %a{:href => '/design/keyboard-and-mouse', class: "#{'active' if @active == '/design/keyboard-and-mouse'}" } Keyboard &amp; mouse
+
+      %li.divider
+      %li
+        %a{:href => '/packages', class: "#{'active' if @active == '/packages'}" } Package Repository
+
+      %li.divider
+      %li
+        %a{:href => '/faq', class: "#{'active' if @active == '/faq'}" } FAQ
+
+      %li.divider
+      %li
+        %a{:href => 'https://github.com/halfshell/halfshell/issues'}
+          Bugs
+
+      %li.divider
+      %li
+        %a{:href => 'https://github.com/halfshell/halfshell/wiki'}
+          Wiki
+
+      %li.divider
+      %li
+        %a{:href => 'https://github.com/halfshell/halfshell'}
+          %i.icon.foundicon-github
+
+      %li.divider
+      %li
+        %a{:href => 'https://twitter.com/halfshellapp'}
+          %i.icon.foundicon-twitter
+
+
+      %li.divider

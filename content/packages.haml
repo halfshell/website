@@ -1,0 +1,50 @@
+= render 'top-bar', active: '/packages'
+
+%section.intro.packages
+  .smooth-strip
+    %h3 Package Repository
+    .row
+      :markdown
+        Halfshell modules are managed by [npm](https://npmjs.org/) using the public registry.
+        A package must be published using the npm keyword "halfshell" to be recognized.
+        They generally fall into one of two categories; `commands` and `themes`.
+        Each package should contain at most one theme or command. Grouped command sets can
+        be created as a meta-package with multiple dependencies.
+
+  %br
+  %br
+
+  .row
+    .columns.large-6.large-centered.brick-strip
+      .row
+        %form
+        .columns.large-9
+          %input{type: 'text', placeholder: 'Package name...', disabled: 'disabled'}
+        .columns.large-3
+          %a.button.small.round.success.disabled Search
+
+  %br
+  %br
+
+  .row
+    .columns.large-12.large-centered
+      %table
+        %thead
+          %tr
+            %th Name
+            %th Description
+            %th Author
+            %th Github
+            %th Modified
+        %tbody
+          %tr
+            %td hello-halfshell
+            %td This package does not actually exist.
+            %td
+              :markdown
+                [Logan Koester](mailto:logan@logankoester.com)
+            %td
+              :markdown
+                [logankoester/hello-halfshell](http://github.com/logankoester/hello-halfshell)
+            %td
+              3 months from now

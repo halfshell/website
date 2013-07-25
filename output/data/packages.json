@@ -1,0 +1,17 @@
+[
+  {
+    "name":"hello-halfshell",
+    "description":"This package does not actually exist.",
+    "author":
+      {
+        "name":"Logan Koester",
+        "email":"logan@logankoester.com"
+      },
+    "github":"https://github.com/logankoester/hello-halfshell",
+    "keywords":["halfshell","command"],
+    "time": {
+      "modified":"2013-02-25T03:54:57.816Z",
+      "created":"2012-12-27T19:05:40.027Z"
+    }
+  }
+]

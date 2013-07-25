@@ -1,0 +1,151 @@
+= render 'top-bar', active: '/'
+
+.smooth-strip
+  = render 'about_halfshell', header: @item[:title]
+  .brick-strip.questions-slider-container
+    %h3.subheader.text-center.questions-slider
+      - @item[:questions].shuffle.each do |question|
+        .question
+          :markdown
+            #{question}
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Scrollback windowing
+      :markdown
+        The prompt pushes each user command to a new container 
+        within the scrollback buffer.
+
+        Long-running programs are contained without blocking the prompt.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/200'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Contextual presentation
+      :markdown
+        Standard output streams are filtered and displayed using customizable views.
+
+        Views may include sortable tables, graphics, and even interactive forms.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Keyboard interface
+      :markdown
+        Halfshell uses vi-like modal keybindings.
+        
+        `INSERT` mode jumps to the prompt for entering new commands.
+
+        `NORMAL` mode is used to cycle through and manipulate commands in the
+        buffer.
+
+        `COMMAND` mode is used to manipulate interactive elements of the active
+        command.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/300'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Easy to learn
+      :markdown
+        The `doc` panel provides a one-glance reference for the
+        command you are currently using.
+
+        Sessions can be recorded and replayed to teach new users.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader JSON streams
+      :markdown
+        All data is completely decoupled from its presentation.
+        
+        Standard streams are filtered into a JSON representation
+        that may include additional metadata.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Visual pipes
+      :markdown
+        Rewire scrollback commands and see the effects. Save useful chains
+        with an alias for later reuse.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader JavaScript environment
+      :markdown
+        Filters accept text and emit JSON.
+        Views add interactive behaviors and formatting.
+        Templates wrap the output in HTML.
+
+        And of course, themes are just CSS.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Session management
+      :markdown
+        Save a session for each project and Halfshell will restore your layout,
+        history, aliased chains and everything else for you when you get back.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+
+%section
+  .row
+    .large-4.small-1.columns
+      %h3.subheader Productization
+      :markdown
+        Bundle a domain-specific commandset + branded theme and offer your
+        users a powerful desktop application at a fraction of the cost.
+
+        Available for Linux, Windows and Mac.
+    .large-8.small-1.columns
+      .panel
+        %img{src: 'http://placekitten.com/625/150'}
+
+%hr
+%br
+.row
+  .columns.large-6.large-centered.text-center.brick-strip
+    %h3 Join the mailing list
+    = render 'subscribe'

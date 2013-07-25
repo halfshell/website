@@ -1,0 +1,22 @@
+/ Footer
+.text-center
+  %footer.row
+    .large-12.columns
+      %hr/
+      %br
+      %br
+      .row
+        .large-12.columns
+          %p ♡ 2013 Logan Koester. Copying is an act of love.
+  :javascript
+    document.write('<script src=/javascripts/vendor/' +
+    ('__proto__' in {} ? 'zepto' : 'jquery') +
+    '.js><\/script>')
+  %script{:src => '/javascripts/foundation/foundation.js'}
+  %script{:src => '/javascripts/foundation/topbar.js'}
+  %script{:src => '/javascripts/foundation/dropdown.js'}
+  %script{:src => '/javascripts/vendor/segmentio.js'}
+  %script{:src => '/javascripts/analytics.js'}
+  %script{type: 'text/javascript', src: '/javascripts/app.js'}
+  :javascript
+    $(document).foundation();

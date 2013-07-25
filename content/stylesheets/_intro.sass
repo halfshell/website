@@ -1,0 +1,27 @@
+@import '_settings'
+
+.intro
+  // http://stackoverflow.com/questions/10953037/google-webfonts-render-choppy-in-chrome-on-windows
+  -webkit-text-stroke: 0.5px
+  .button
+    -webkit-text-stroke: 0
+
+  padding-top: 20px
+  margin-bottom: 40px
+  text-align: center
+  a
+    color: $deep-turquoise
+    &:hover
+      color: lighten($deep-turquoise, 20%)
+  h1
+    font-family: 'Quicksand', $header-font-family
+    font-weight: lighter
+    color: #fff
+    text-shadow: 0px 2px 3px #555
+  p
+    font-family: 'Quicksand', $body-font-family
+    text-align: left
+
+  img.logo
+    -vendor-animation-delay: 5s
+    -vendor-animation-iteration-count: infinite

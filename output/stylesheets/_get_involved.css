@@ -1,0 +1,8 @@
+/* line 1, content/stylesheets/_get_involved.sass */
+section.get_involved {
+  padding-top: 40px;
+}
+/* line 5, content/stylesheets/_get_involved.sass */
+section.get_involved .roles h3 {
+  text-align: center;
+}

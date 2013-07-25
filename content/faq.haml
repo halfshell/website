@@ -1,0 +1,9 @@
+= render 'top-bar', active: '/faq'
+
+%section.intro.faq
+  - @item[:questions].each do |question|
+    .row
+      .columns.large-8.large-centered
+        .brick-strip
+          %h4= question[:q]
+        %p= question[:a]

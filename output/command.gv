@@ -1,0 +1,9 @@
+digraph G {
+  "Command" -> "Input Filter" -> "System call" -> "Output filter" -> "View";
+
+  "Output filter" -> "JSON Pipe";
+
+  "Command" -> "View";
+  "View" -> "Ractive.js";
+  "View" -> "HTML";
+}

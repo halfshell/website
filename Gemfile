@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'nanoc'
+gem 'adsf'
+gem 'mime-types'
+gem 'compass'
+gem 'zurb-foundation'
+gem 'haml'
+gem 'html2haml'
+gem 'pry'
+gem 'redcarpet'
+gem 'systemu'

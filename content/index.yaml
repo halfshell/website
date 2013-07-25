@@ -1,0 +1,6 @@
+---
+title: 'Rethinking the UNIX terminal.'
+questions:
+  - "When I run `ls ~/images`, why don't I see any pictures?"
+  - "Why can't `df -h` show me a pie chart?"
+  - "Why doesn't `grep` help me build my regexp?"

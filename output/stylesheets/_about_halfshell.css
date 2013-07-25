@@ -1,0 +1,41 @@
+/* line 29, content/stylesheets/_icons.sass */
+.icon.platform-icon.ruby {
+  background-image: url(../images/platform-icons/ruby.png);
+}
+
+/* line 3, content/stylesheets/_about_halfshell.sass */
+.intro {
+  -webkit-text-stroke: 0.5px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* line 6, content/stylesheets/_about_halfshell.sass */
+.intro .button {
+  -webkit-text-stroke: 0;
+}
+/* line 12, content/stylesheets/_about_halfshell.sass */
+.intro a {
+  color: #009cbf;
+}
+/* line 14, content/stylesheets/_about_halfshell.sass */
+.intro a:hover {
+  color: #26d7ff;
+}
+/* line 16, content/stylesheets/_about_halfshell.sass */
+.intro h1 {
+  font-family: "Quicksand", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 0px 2px 3px #555555;
+}
+/* line 21, content/stylesheets/_about_halfshell.sass */
+.intro p {
+  font-family: "Quicksand", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+/* line 25, content/stylesheets/_about_halfshell.sass */
+.intro img.logo {
+  -vendor-animation-delay: 5s;
+  -vendor-animation-iteration-count: infinite;
+}

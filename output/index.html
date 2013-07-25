@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> ><! <![endif]-->
+<html class='no-js' lang='en'>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8'>
+    <!-- Set the viewport width to device width for mobile -->
+    <meta content='width=device-width' name='viewport'>
+    <title>Halfshell - Rethinking the UNIX terminal.</title>
+    <!-- Included CSS Files -->
+    <link href='/stylesheets/social_foundicons.css' media='screen, projector, print' rel='stylesheet' type='text/css'>
+    <link href='/vendor/stylesheets/animate.css' media='screen, projector' rel='stylesheet' type='text/css'>
+    <link href='/stylesheets/app.css' media='screen, projector, print' rel='stylesheet' type='text/css'>
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta content='nanoc 3.6.4' name='generator'>
+    <script src='/javascripts/vendor/modernizr.js' type='text/javascript'></script>
+    <script src='/javascripts/vendor/jquery.js' type='text/javascript'></script>
+  </head>
+</html>
+<body>
+  <div id='page-bg'>
+    <div id='footer-bg'>
+      <div class='default'>
+        <nav class='top-bar'>
+          <ul class='title-area'>
+            <li class='name'>
+              <h1>
+                <a href='/'>
+                  Halfshell
+                </a>
+              </h1>
+            </li>
+          </ul>
+          <section class='top-bar-section'>
+            <ul class='left'>
+              <li class='divider'></li>
+              <li>
+                <a class='active' href='/'>Home</a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a class='' href='/get-involved'>Get Involved</a>
+              </li>
+              <li class='divider'></li>
+              <li class='has-dropdown'>
+                <a href='#'>Design</a>
+                <ul class='dropdown'>
+                  <li>
+                    <a class='' href='/design/technology'>Underlying technology</a>
+                  </li>
+                  <li>
+                    <a class='' href='/design/sketches'>Sketches &amp; Mockups</a>
+                  </li>
+                  <!--
+                    <li>
+                      <a class='' href='/design/modular'>Modular framework</a>
+                    </li>
+                    <li>
+                      <a class='' href='/design/keyboard-and-mouse'>Keyboard &amp; mouse</a>
+                    </li>
+                  -->
+                </ul>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a class='' href='/packages'>Package Repository</a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a class='' href='/faq'>FAQ</a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://github.com/halfshell/halfshell/issues'>
+                  Bugs
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://github.com/halfshell/halfshell/wiki'>
+                  Wiki
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://github.com/halfshell/halfshell'>
+                  <i class='icon foundicon-github'></i>
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://twitter.com/halfshellapp'>
+                  <i class='icon foundicon-twitter'></i>
+                </a>
+              </li>
+              <li class='divider'></li>
+            </ul>
+          </section>
+        </nav>
+        <div class='smooth-strip'>
+          <section class='intro about_halfshell'>
+            <img class='logo' src='/images/halfshell-icon-256.png'>
+            <h1 class='header'>Rethinking the UNIX terminal.</h1>
+            <hr>
+            <div class='row'>
+              <div class='columns large-6 bio'>
+                <p>Many of us work faster with command-line interfaces than with graphical 
+                tools. But is emulating a terminal made in 1978 still the best we can
+                do?</p>
+              </div>
+              <div class='columns large-6 hire'>
+                <p>Windowing systems have offered human-friendly interactions for years,
+                but at the cost of automation, mouse-driven madness, and labrynthine menus.</p>
+              </div>
+            </div>
+          </section>
+          <div class='brick-strip questions-slider-container'>
+            <h3 class='subheader text-center questions-slider'>
+              <div class='question'>
+                <p>When I run <code>ls ~/images</code>, why don&#39;t I see any pictures?</p>
+              </div>
+              <div class='question'>
+                <p>Why doesn&#39;t <code>grep</code> help me build my regexp?</p>
+              </div>
+              <div class='question'>
+                <p>Why can&#39;t <code>df -h</code> show me a pie chart?</p>
+              </div>
+            </h3>
+          </div>
+        </div>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Scrollback windowing</h3>
+              <p>The prompt pushes each user command to a new container 
+              within the scrollback buffer.</p>
+              
+              <p>Long-running programs are contained without blocking the prompt.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/200'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Contextual presentation</h3>
+              <p>Standard output streams are filtered and displayed using customizable views.</p>
+              
+              <p>Views may include sortable tables, graphics, and even interactive forms.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Keyboard interface</h3>
+              <p>Halfshell uses vi-like modal keybindings.</p>
+              
+              <p><code>INSERT</code> mode jumps to the prompt for entering new commands.</p>
+              
+              <p><code>NORMAL</code> mode is used to cycle through and manipulate commands in the
+              buffer.</p>
+              
+              <p><code>COMMAND</code> mode is used to manipulate interactive elements of the active
+              command.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/300'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Easy to learn</h3>
+              <p>The <code>doc</code> panel provides a one-glance reference for the
+              command you are currently using.</p>
+              
+              <p>Sessions can be recorded and replayed to teach new users.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>JSON streams</h3>
+              <p>All data is completely decoupled from its presentation.</p>
+              
+              <p>Standard streams are filtered into a JSON representation
+              that may include additional metadata.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Visual pipes</h3>
+              <p>Rewire scrollback commands and see the effects. Save useful chains
+              with an alias for later reuse.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>JavaScript environment</h3>
+              <p>Filters accept text and emit JSON.
+              Views add interactive behaviors and formatting.
+              Templates wrap the output in HTML.</p>
+              
+              <p>And of course, themes are just CSS.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Session management</h3>
+              <p>Save a session for each project and Halfshell will restore your layout,
+              history, aliased chains and everything else for you when you get back.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <div class='row'>
+            <div class='large-4 small-1 columns'>
+              <h3 class='subheader'>Productization</h3>
+              <p>Bundle a domain-specific commandset + branded theme and offer your
+              users a powerful desktop application at a fraction of the cost.</p>
+              
+              <p>Available for Linux, Windows and Mac.</p>
+            </div>
+            <div class='large-8 small-1 columns'>
+              <div class='panel'>
+                <img src='http://placekitten.com/625/150'>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <br>
+        <div class='row'>
+          <div class='columns large-6 large-centered text-center brick-strip'>
+            <h3>Join the mailing list</h3>
+            <!-- Begin MailChimp Signup Form -->
+            <div id='mc_embed_signup'>
+              <form action='http://ldk.us7.list-manage1.com/subscribe/post?u=04d3df315010c10e0eb529038&amp;amp;id=513161f775' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='Email address' type='email' value=''>
+                </div>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
+                </div>
+                <div class='clear text-center'>
+                  <input class='button round success' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
+            </div>
+            <!-- End mc_embed_signup -->
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class='text-center'>
+        <footer class='row'>
+          <div class='large-12 columns'>
+            <hr>
+            <br>
+            <br>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <p>♡ 2013 Logan Koester. Copying is an act of love.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script>
+          document.write('<script src=/javascripts/vendor/' +
+          ('__proto__' in {} ? 'zepto' : 'jquery') +
+          '.js><\/script>')
+        </script>
+        <script src='/javascripts/foundation/foundation.js'></script>
+        <script src='/javascripts/foundation/topbar.js'></script>
+        <script src='/javascripts/foundation/dropdown.js'></script>
+        <script src='/javascripts/vendor/segmentio.js'></script>
+        <script src='/javascripts/analytics.js'></script>
+        <script src='/javascripts/app.js' type='text/javascript'></script>
+        <script>
+          $(document).foundation();
+        </script>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,22 @@
+@import '_settings'
+@import 'compass/css3/box-shadow'
+
+.ribbon
+  display: none
+  padding: 3px 5px
+  height: 40px
+  color: $storm-surge
+  background-color: lighten($deep-sea-mischief, 10%)
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+  position: relative
+  float: left
+  clear: left
+  font-family: 'Montez', cursive
+  font-size: 32px
+  line-height: 40px
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3)
+  @include box-shadow(4px 4px 5px rgba(0, 0, 0, 0.8))
+  border-bottom-right-radius: 20px 5px
+  top: 8px
+  left: 5px
+  z-index: 10

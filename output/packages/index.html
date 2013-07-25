@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> ><! <![endif]-->
+<html class='no-js' lang='en'>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8'>
+    <!-- Set the viewport width to device width for mobile -->
+    <meta content='width=device-width' name='viewport'>
+    <title>Halfshell -</title>
+    <!-- Included CSS Files -->
+    <link href='/stylesheets/social_foundicons.css' media='screen, projector, print' rel='stylesheet' type='text/css'>
+    <link href='/vendor/stylesheets/animate.css' media='screen, projector' rel='stylesheet' type='text/css'>
+    <link href='/stylesheets/app.css' media='screen, projector, print' rel='stylesheet' type='text/css'>
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta content='nanoc 3.6.4' name='generator'>
+    <script src='/javascripts/vendor/modernizr.js' type='text/javascript'></script>
+    <script src='/javascripts/vendor/jquery.js' type='text/javascript'></script>
+  </head>
+</html>
+<body>
+  <div id='page-bg'>
+    <div id='footer-bg'>
+      <div class='default'>
+        <nav class='top-bar'>
+          <ul class='title-area'>
+            <li class='name'>
+              <h1>
+                <a href='/'>
+                  Halfshell
+                </a>
+              </h1>
+            </li>
+          </ul>
+          <section class='top-bar-section'>
+            <ul class='left'>
+              <li class='divider'></li>
+              <li>
+                <a class='' href='/'>Home</a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a class='' href='/get-involved'>Get Involved</a>
+              </li>
+              <li class='divider'></li>
+              <li class='has-dropdown'>
+                <a href='#'>Design</a>
+                <ul class='dropdown'>
+                  <li>
+                    <a class='' href='/design/technology'>Underlying technology</a>
+                  </li>
+                  <li>
+                    <a class='' href='/design/sketches'>Sketches &amp; Mockups</a>
+                  </li>
+                  <!--
+                    <li>
+                      <a class='' href='/design/modular'>Modular framework</a>
+                    </li>
+                    <li>
+                      <a class='' href='/design/keyboard-and-mouse'>Keyboard &amp; mouse</a>
+                    </li>
+                  -->
+                </ul>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a class='active' href='/packages'>Package Repository</a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a class='' href='/faq'>FAQ</a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://github.com/halfshell/halfshell/issues'>
+                  Bugs
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://github.com/halfshell/halfshell/wiki'>
+                  Wiki
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://github.com/halfshell/halfshell'>
+                  <i class='icon foundicon-github'></i>
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='https://twitter.com/halfshellapp'>
+                  <i class='icon foundicon-twitter'></i>
+                </a>
+              </li>
+              <li class='divider'></li>
+            </ul>
+          </section>
+        </nav>
+        <section class='intro packages'>
+          <div class='smooth-strip'>
+            <h3>Package Repository</h3>
+            <div class='row'>
+              <p>Halfshell modules are managed by <a href="https://npmjs.org/">npm</a> using the public registry.
+              A package must be published using the npm keyword &quot;halfshell&quot; to be recognized.
+              They generally fall into one of two categories; <code>commands</code> and <code>themes</code>.
+              Each package should contain at most one theme or command. Grouped command sets can
+              be created as a meta-package with multiple dependencies.</p>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class='row'>
+            <div class='columns large-6 large-centered brick-strip'>
+              <div class='row'>
+                <form></form>
+                <div class='columns large-9'>
+                  <input disabled='disabled' placeholder='Package name...' type='text'>
+                </div>
+                <div class='columns large-3'>
+                  <a class='button small round success disabled'>Search</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class='row'>
+            <div class='columns large-12 large-centered'>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Author</th>
+                    <th>Github</th>
+                    <th>Modified</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>hello-halfshell</td>
+                    <td>This package does not actually exist.</td>
+                    <td>
+                      <p><a href="mailto:logan@logankoester.com">Logan Koester</a></p>
+                    </td>
+                    <td>
+                      <p><a href="http://github.com/logankoester/hello-halfshell">logankoester/hello-halfshell</a></p>
+                    </td>
+                    <td>
+                      3 months from now
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Footer -->
+      <div class='text-center'>
+        <footer class='row'>
+          <div class='large-12 columns'>
+            <hr>
+            <br>
+            <br>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <p>♡ 2013 Logan Koester. Copying is an act of love.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script>
+          document.write('<script src=/javascripts/vendor/' +
+          ('__proto__' in {} ? 'zepto' : 'jquery') +
+          '.js><\/script>')
+        </script>
+        <script src='/javascripts/foundation/foundation.js'></script>
+        <script src='/javascripts/foundation/topbar.js'></script>
+        <script src='/javascripts/foundation/dropdown.js'></script>
+        <script src='/javascripts/vendor/segmentio.js'></script>
+        <script src='/javascripts/analytics.js'></script>
+        <script src='/javascripts/app.js' type='text/javascript'></script>
+        <script>
+          $(document).foundation();
+        </script>
+      </div>
+    </div>
+  </div>
+</body>

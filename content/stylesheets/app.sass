@@ -1,0 +1,168 @@
+// Global Foundation Settings
+@import settings
+
+// Comment out this import if you don't want to use normalize
+@import normalize
+
+// Comment out this import if you are customizing you imports below
+@import foundation
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "foundation/components/global"; // *always required
+// @import "foundation/components/grid";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+@import url(http://fonts.googleapis.com/css?family=Montez)
+@import url(http://fonts.googleapis.com/css?family=Cherry+Swash)
+@import url(http://fonts.googleapis.com/css?family=Quicksand)
+
+blockquote
+  border-left: 0
+  padding: 0
+
+h3
+  font-family: 'Cherry Swash', cursive
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)
+  font-weight: normal
+
+h5
+  color: $stage
+  font-weight: normal
+
+.desaturate
+  @include filter(contrast(1))
+  @include filter(brightness(1))
+  @include transition(all 0.3s ease)
+  &:hover
+    @include filter(contrast(0.3))
+    @include filter(brightness(0.4))
+
+hr
+  text-align: center
+  background: url('../images/hr.png') center no-repeat
+  opacity: 0.1
+  border: none
+  height: 4px
+
+.icon
+  vertical-align: middle
+
+p
+  a
+    color: #009cbf
+
+html
+  background-color: #000
+
+table
+  width: 100%
+  border: 0
+  thead
+    background: $deep-sea-mischief
+    color: #fff
+    tr
+      th
+        text-align: center
+        color: inherit
+  tbody
+    background: $storm-surge
+    color: #fff
+    tr
+      td
+        color: inherit
+
+#page-bg
+  background: url('../images/gradient_light.svg') 50% -400px fixed no-repeat, url('../images/gradient_dark.svg') 50% 0 fixed no-repeat
+  background-size: 1600px 1000px, 100% 500%
+
+.top-bar
+  font-family: 'Quicksand', $body-font-family
+  margin-bottom: 0
+  .name h1 a
+    font-family: 'Montez', cursive
+    color: $deep-turquoise
+  .icon
+    vertical-align: middle
+    font-size: 2em
+.top-bar-section .has-dropdown:hover
+  .dropdown
+    visibility: visible
+.top-bar-section ul li > a
+  color: $not-quite-sky
+  height: 45px
+  font-size: 1em
+  &.active
+    color: $code-red
+  &:hover
+    color: $deep-turquoise
+
+.panel h3.subheader
+  color: $deep-turquoise
+
+.button, .button.success, .button.disabled.success
+  color: $deep-sea-mischief
+  &:hover
+    color: $deep-sea-mischief
+
+ul.breadcrumbs
+  background-color: transparentize(lighten(#000, 4%), 0.3)
+  border: none
+
+.smooth-strip
+  background-color: transparentize(lighten(#000, 4%), 0.3)
+  h1
+    font-family: 'Quicksand', $header-font-family
+    font-weight: lighter
+    color: #fff
+    text-shadow: 0px 2px 3px #555
+
+.brick-strip
+  h5
+    color: #fff
+  p
+    color: $not-quite-sky
+  background: url('../images/fake_brick.png') #111111
+  border: $storm-surge
+  border-top: 2px
+  border-bottom: 2px
+  @include border-radius(4px)
+  @include box-shadow(0px 0px 100px rgba(0,0,0,1))
+
+@import '_ribbon'
+@import '_intro'
+@import '_questions_slider'
+@import '_get_involved'
